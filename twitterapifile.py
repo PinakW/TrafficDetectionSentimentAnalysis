@@ -6,10 +6,10 @@ from tweepy.streaming import StreamListener
 import time
 
 
-ckey='dJKr0gXQcRJSZ0hsuUTXf5WLf'#Consumer Key
-csecret='S0hkHAZHmVjLtIO1vS0l3boUDoffhT5CpNxejtK9pLztwgd0sA'#Consumer Secret
-atoken='2964019449-aIqNFXacvdvivZxRmyGcsSR1ncHqgSXYunrde5D'#Access token
-asecret='iptPkPvBUQyog6eA6aoMNQZv1gxC3SUgUY0Yj0leejE9b'#Access Secret
+ckey=''#Consumer Key
+csecret=''#Consumer Secret
+atoken=''#Access token
+asecret=''#Access Secret
 api = TwitterAPI(ckey, csecret, atoken, asecret)
 
 class listener(StreamListener):
